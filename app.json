@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "HealthCare",
-    "slug": "HealthCare",
+    "name": "SeniorCare Connect",
+    "slug": "seniorcare-connect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "healthcare",
+    "scheme": "seniorcare",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
