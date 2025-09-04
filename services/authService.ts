@@ -42,8 +42,8 @@ class AuthService {
   private readonly USER_KEY = 'user_data';
 
   // API endpoints - update this to your backend URL
-  // For Expo Go on phone, use your computer's IP address instead of localhost
-  private readonly API_BASE = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.0.163:3000/api';
+  // For Vercel deployment, this will be your Vercel URL
+  private readonly API_BASE = process.env.EXPO_PUBLIC_API_URL || 'https://seniorcare-backend.vercel.app/api';
 
   // Test connection method
   async testConnection(): Promise<boolean> {
